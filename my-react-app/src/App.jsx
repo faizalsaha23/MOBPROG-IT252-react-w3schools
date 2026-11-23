@@ -1,8 +1,9 @@
 function App() {
   return (
-    <div style={{ textAlign: "center", marginTop: "50px" }}>
+    <div className="App">
       <h1>Hello MOBPROG-IT252 World!</h1>
-      <p>Happy 2026 SoCITFest!</p>
+      <h2>Happy 2026 SoCITFest!</h2>
+      <h2>Have a good long weekend and holiday</h2>
       <h3>Faizal Saha</h3>
     </div>
   );
