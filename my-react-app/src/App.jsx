@@ -25,4 +25,14 @@ function App() {
       <h2>JSX Attributes</h2>
       <img src={imageUrl} alt="Never give up" />
       <p className="note" style={{ color: "green", fontSize: "20px" }}>
-        This text uses className and style
+        This text uses className and style attributes
+      </p>
+
+      <h2>JSX If Statements</h2>
+      <p>{message}</p>
+      <p>{isMotivated ? "Welcome back, keep pushing!" : "Take a short rest."}</p>
+    </div>
+  );
+}
+
+export default App;
