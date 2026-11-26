@@ -1,5 +1,5 @@
 function App() {
-  const name = "Your Name Here";
+  const name = "Faizal Saha";
   const a = 5;
   const b = 10;
   const imageUrl = "https://placehold.co/150";
@@ -26,4 +26,14 @@ function App() {
       <h2>JSX Attributes</h2>
       <img src={imageUrl} alt="placeholder" />
       <p className="note" style={{ color: "blue", fontSize: "20px" }}>
-        This
+        This text uses className and style attributes
+      </p>
+
+      <h2>JSX If Statements</h2>
+      <p>{message}</p>
+      <p>{isLoggedIn ? "Welcome back!" : "Please log in."}</p>
+    </div>
+  );
+}
+
+export default App;
