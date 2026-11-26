@@ -1,10 +1,22 @@
+import Card from "./Card";
+
 function App() {
   return (
-    <div className="App">
+    <div>
       <h1>Hello MOBPROG-IT252 World!</h1>
-      <h2>Happy 2026 SoCITFest!</h2>
-      <h2>Have a good long weekend and holiday</h2>
-      <h3>Faizal Saha</h3>
+      <h2>Faizal Saha</h2>
+
+      <h3>React Props Children</h3>
+
+      <Card>
+        <h2>Card 1</h2>
+        <p>This text is the children of the Card.</p>
+      </Card>
+
+      <Card>
+        <h2>Card 2</h2>
+        <p>Different children, same Card!</p>
+      </Card>
     </div>
   );
 }
