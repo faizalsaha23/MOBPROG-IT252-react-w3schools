@@ -8,9 +8,9 @@ class Car extends React.Component {
 }
 
 // 2. React Props
-class Bike extends React.Component {
+class MyCar extends React.Component {
   render() {
-    return <h2>I am a {this.props.color} Bike!</h2>;
+    return <h2>My {this.props.color} {this.props.brand}!</h2>;
   }
 }
 
@@ -32,7 +32,7 @@ function App() {
       <Car />
 
       <h3>React Props</h3>
-      <Bike color="red" />
+      <MyCar color="red" brand="Ferrari" />
 
       <h3>React Destructuring Props</h3>
       <Student name="Faizal Saha" course="BSIT 252" />
