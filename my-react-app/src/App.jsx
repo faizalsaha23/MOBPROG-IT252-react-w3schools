@@ -3,9 +3,6 @@ import Card from "./Card";
 function App() {
   return (
     <div>
-      <h1>Hello MOBPROG-IT252 World!</h1>
-      <h2>Faizal Saha</h2>
-
       <h3>React Props Children</h3>
 
       <Card>
