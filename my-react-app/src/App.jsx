@@ -2,11 +2,11 @@ import Hooks from "./Hooks";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello MOBPROG-IT252 World!</h1>
-      <h2>Happy 2026 SoCITFest!</h2>
-      <h2>Have a good long weekend and holiday</h2>
-      <h3>Faizal Saha</h3>
+    <div>
+      <h1>Hello Faizal!</h1>
+      <h2>Component 2</h2>
+      <h2>Component 3</h2>
+      <h3>Hello Faizal again!</h3>
       <Hooks />
     </div>
   );
